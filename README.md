@@ -11,4 +11,9 @@ To-do list for the week
 -   [x] decide a project
 -   [ ] Add team member to readme.
 
+## Task list
+* setting up material UI for styling
+* creating navbar
+* setup redux for it to interact with another component
+
 ## Team Members
