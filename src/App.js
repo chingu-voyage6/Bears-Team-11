@@ -11,7 +11,7 @@ class App extends Component {
       return (
       <div>
         <Navbar />
-        <div className="container">
+        <div className="container-fluid">
 
           {/* Portfolio Item Heading  */}
           <h1 className="my-4">Page Heading
@@ -21,7 +21,13 @@ class App extends Component {
           {/* <!-- Portfolio Item Row --> */}
           <div className="row">
             <VideoPlayer />
-            <VideoPlaceHolder />
+            <div className="col-md-4">
+              <VideoPlaceHolder />
+              <br />
+              <VideoPlaceHolder />
+              <br />
+              <VideoPlaceHolder />
+            </div>
           </div>
           {/* <!-- /.row --> */}
         </div>
