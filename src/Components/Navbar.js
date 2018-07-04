@@ -15,11 +15,11 @@ class Navbar extends Component{
                 </button>
                 <a class="navbar-brand" rel="home" href="#" title="yungu">yungu</a>
               </div>
-              <div class="collapse navbar-collapse navbar-ex1-collapse">
+              <div class="collapse navbar-collapse navbar-ex1-collapse pull-right">
                 <ul class="nav navbar-nav">
                   <li><a href="#">Saved Playlists</a></li>
                 </ul>
-                <div class="col-sm-3 col-md-3 pull-right">
+                <div class="col-sm-8 col-md-8 ">
                   <SearchBar />                  
                 </div>
             </div>
