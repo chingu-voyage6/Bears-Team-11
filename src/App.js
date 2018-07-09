@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Navbar from './Components/Navbar.js'
 import VideoPlayer from './Components/VideoPlayer.js'
-import VideoPlaceHolder from './Components/VideoPlaceHolder.js'
+import SuggestedVideoPlaceHolder from './Components/SuggestedVideoPlaceHolder.js'
+import SavedVideoPlaceHolder from './Components/SavedVideoPlaceHolder.js'
 import Footer from './Components/Footer.js'
 
 
@@ -13,17 +14,27 @@ class App extends Component {
         <Navbar />
         <div className="container-fluid">
           <div className="row">
-            <VideoPlayer />
+            <div className="col-md-8">
+              <VideoPlayer />
+              <br />
+              <h2> Saved Videos </h2>
+              <hr />
+              <div class="row">
+                <SavedVideoPlaceHolder />
+                <SavedVideoPlaceHolder />
+                <SavedVideoPlaceHolder />
+              </div>
+            </div>
             <div className="col-md-4">
-              <VideoPlaceHolder />
+              <SuggestedVideoPlaceHolder />
               <br />
-              <VideoPlaceHolder />
+              <SuggestedVideoPlaceHolder />
               <br />
-              <VideoPlaceHolder />
+              <SuggestedVideoPlaceHolder />
               <br />
-              <VideoPlaceHolder />
+              <SuggestedVideoPlaceHolder />
               <br />
-              <VideoPlaceHolder />
+              <SuggestedVideoPlaceHolder />
             </div>
           </div>
         </div>

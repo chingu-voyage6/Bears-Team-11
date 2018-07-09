@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class VideoPlaceHolder extends Component{
+class SuggestedVideoPlaceHolder extends Component{
     render(){
         return(
             <div className="row">
@@ -19,4 +19,4 @@ class VideoPlaceHolder extends Component{
     }
 }
 
-export default VideoPlaceHolder;
+export default SuggestedVideoPlaceHolder;
