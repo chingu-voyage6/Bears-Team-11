@@ -1,5 +1,5 @@
 # yungu
-yungu is a web application that enables you to save YouTube Videos to watch offline on your PC. 
+yungu is a web application that enables you to save YouTube Videos to watch offline. 
 It uses React for the front-end and indexDD for offline functionality. 
 It is a collaboration effort made possible by [Chingu](https://chingu.io/) 
 
