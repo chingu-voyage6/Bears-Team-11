@@ -16,6 +16,15 @@ class App extends Component {
           <div className="row">
             <div className="col-md-8">
               <VideoPlayer />
+                <div className="row">
+                  <div class="col-xs-6">
+                    <p className="views">0 views</p>
+                  </div>
+                  <div className="col-xs-6">
+                    <button className="btn-primary pull-right" ><img src="download-btn.png" /> <span className="save-btn">Save Video</span></button>
+                  </div>
+                </div>
+  
               <br />
               <h2> Saved Videos </h2>
               <hr />
@@ -26,6 +35,8 @@ class App extends Component {
               </div>
             </div>
             <div className="col-md-4">
+              <h2>Recommended Videos</h2>
+              <hr />
               <SuggestedVideoPlaceHolder />
               <br />
               <SuggestedVideoPlaceHolder />
