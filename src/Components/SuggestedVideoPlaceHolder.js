@@ -9,10 +9,10 @@ class SuggestedVideoPlaceHolder extends Component{
                         <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="" />
                     </a>
                 </div>
-                <div className="col-xs-6">
+                <div>
                     <h5>Title</h5>
-                    <p>channel name</p>
-                    <p>number of views</p>
+                    <p className="channel-name">channel name</p>
+                    <p className="views">0 views</p>
                 </div>
             </div>
         )

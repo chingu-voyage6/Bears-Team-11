@@ -8,6 +8,18 @@
     padding-top: 54px;
   }
 
+  .channel-name{
+    color: grey;
+  }
+
+  .views{
+    font-style: italic;
+  }
+
+  .save-btn{
+    display: block;
+  }
+
   #footer {
     background: #000;
     color: #fff;
